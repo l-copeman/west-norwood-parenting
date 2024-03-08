@@ -64,6 +64,19 @@ main {
     width: 100%;
 }
 
+/* Classes page styles */
+#classes-ex {
+    background-color: blueviolet;
+    height: 600px;
+    width: 100%;
+}
+
+/* Sign-up page styles */
+#sign-up-ex {
+    background-color: deepskyblue;
+    height: 600px;
+    width: 100%;
+}
 /* Footer styles */
 footer {
     background-color: lightpink;
