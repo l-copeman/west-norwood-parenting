@@ -20,6 +20,27 @@ body {
 /* Header styles */
 header {
     background-color: lightseagreen;
+    padding: 0 1rem;
+}
+
+header h1 {
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem;
+    padding:0 1rem;
+    color: orange;
+}
+
+.navigation a {
+    color: orange;
+    margin: 0 1rem;
 }
 
 /* Main styles */
