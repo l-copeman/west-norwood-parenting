@@ -20,7 +20,7 @@ body {
 /* Header styles */
 header {
     background-color: lightseagreen;
-    padding: 0 1rem;
+    padding: 0.5rem;
     width: 100%;
 }
 
@@ -30,6 +30,7 @@ header h1 {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    padding-bottom: 0.5rem;
 }
 
 .navigation {
@@ -61,7 +62,6 @@ main {
 footer {
     background-color: lightpink;
     display: flex;
-    align-items: flex-end;
     height: 30px;
 }
 
