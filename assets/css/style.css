@@ -21,6 +21,7 @@ body {
 header {
     background-color: lightseagreen;
     padding: 0 1rem;
+    width: 100%;
 }
 
 header h1 {
@@ -28,19 +29,23 @@ header h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
-    margin: 0 1rem;
-    padding:0 1rem;
-    color: orange;
 }
 
 .navigation a {
-    color: orange;
-    margin: 0 1rem;
+    text-decoration: none;
+    color: red;
+    margin: 0 0 0 1rem;
+    font-size: 13px;
+}
+
+a:hover {
+    color: green;
 }
 
 /* Main styles */
