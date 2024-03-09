@@ -5,7 +5,6 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 /* General styles */
@@ -33,6 +32,7 @@ header h1 {
     flex-wrap: wrap;
     text-align: center;
     padding-bottom: 0.5rem;
+    margin: 0 5px;
 }
 
 .navigation {
@@ -65,32 +65,50 @@ main {
     background: url("../images/landing-image2.jpeg") no-repeat top center/cover;
     height: 800px;
     width: 100%;
+    position: relative;
+}
+
+#landing-text {
+    background-color: rgba(200, 100, 100, .7);
+    font-size: 130%;
+    position: absolute;
+    top: 50vh;
+    right: 10vw;
+    width: 60%;
+    min-height: 100px;
+    max-width: 200px;
 }
 
 /* Classes page styles */
 .class-head {
-    width: 100%;
-    position: absolute;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
 }
 
-.days {
-    background-color: darkseagreen;
+.class-head li {
+    line-height: 2rem;
     display: flex;
-    flex-wrap: wrap;
-    border: 5px;
-    margin: 5px;
-    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+.class-head h2 {
+    width: 80vw;
+    margin-bottom: 30px;
+}
+
+.class-head a {
+    text-decoration: none;
 }
 
 .weekdays {
-    margin: 10px auto;
-    width: 90%;
-    border: 5px;
     display: flex;
-}
+    justify-content: center;
 
-.days h3 {
-    margin: 2px;
 }
 
 /* Sign-up page styles */
@@ -104,6 +122,7 @@ footer {
     background-color: lightpink;
     display: flex;
     height: 30px;
+    width: 100%;
 }
 
 .social {
