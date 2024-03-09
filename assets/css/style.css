@@ -79,6 +79,50 @@ main {
     max-width: 200px;
 }
 
+#about-1 {
+    background-color: rgba(200, 100, 100, .7);
+    font-size: 80%;
+    position: absolute;
+    bottom: 0vh;
+    left: 0vw;
+    width: 25%;
+    min-height: 140px;
+    text-align: center;
+}
+
+#about-2 {
+    background-color: rgba(54, 146, 106, 0.7);
+    font-size: 80%;
+    position: absolute;
+    bottom: 0vh;
+    left: 25%;
+    width: 25%;
+    min-height: 140px;
+    text-align: center;
+}
+
+#about-3 {
+    background-color: rgba(200, 100, 100, .7);
+    font-size: 80%;
+    position: absolute;
+    bottom: 0vh;
+    left: 50%;
+    width: 25%;
+    min-height: 140px;
+    text-align: center;
+}
+
+#about-4 {
+    background-color: rgba(54, 146, 106, 0.7);
+    font-size: 80%;
+    position: absolute;
+    bottom: 0vh;
+    left: 75%;
+    width: 25%;
+    min-height: 140px;
+    text-align: center;
+}
+
 /* Classes page styles */
 .class-head {
     margin-left: 20px;
