@@ -23,6 +23,7 @@ header {
     padding: 0.5rem;
     width: 100%;
     position: fixed;
+    z-index: 10;
 }
 
 header h1 {
@@ -67,15 +68,29 @@ main {
 }
 
 /* Classes page styles */
+.class-head {
+    width: 100%;
+    position: absolute;
+}
+
 .days {
     background-color: darkseagreen;
     display: flex;
     flex-wrap: wrap;
+    border: 5px;
+    margin: 5px;
+    flex-direction: row;
 }
 
 .weekdays {
     margin: 10px auto;
     width: 90%;
+    border: 5px;
+    display: flex;
+}
+
+.days h3 {
+    margin: 2px;
 }
 
 /* Sign-up page styles */
