@@ -59,7 +59,7 @@ main {
 }
 
 #landing-image {
-    background: url("../images/landing-image2.jpeg") no-repeat center center/cover;
+    background: url("../images/landing-image2.jpeg") no-repeat top center/cover;
     height: 800px;
     width: 100%;
 }
