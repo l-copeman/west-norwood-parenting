@@ -124,35 +124,48 @@ main {
 }
 
 /* Classes page styles */
+#background-classes {
+    background-color: lightblue;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+#background-classes li {
+    list-style-type: none;
+}
+
 .class-head {
-    margin-left: 20px;
-    margin-top: 50px;
+    height: 100vh;
+    position: absolute;
+}
+
+.days {
+    position: absolute;
+    text-align: right;
+    top: 40vh;
+    margin-left: 2rem;
+}
+
+#monday {
+    position: absolute;
+    top: 100vh;
+    background-color: lightgreen;
+    width: 60%;
     display: flex;
-    flex-direction: row;
-    width: 100vw;
-    height: 50vh;
+    flex-wrap: wrap;
+    margin: 5px;
 }
 
-.class-head li {
-    line-height: 2rem;
+#tuesday {
+    position: absolute;
+    top: 130vh;
+    background-color: lightgreen;
+    width: 60%;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 2rem;
-}
-
-.class-head h2 {
-    width: 80vw;
-    margin-bottom: 30px;
-}
-
-.class-head a {
-    text-decoration: none;
-}
-
-.weekdays {
-    display: flex;
-    justify-content: center;
-
+    flex-wrap: wrap;
+    margin: 5px;
 }
 
 /* Sign-up page styles */
