@@ -5,6 +5,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
@@ -12,6 +13,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
     /* Generic project styles */
     font-family: Mulish, sans-serif;
 }
@@ -22,7 +26,11 @@ header {
     padding: 0.5rem;
     width: 100%;
     position: fixed;
+    top: 0;
     z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header h1 {
@@ -30,21 +38,29 @@ header h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    text-align: center;
+    text-align: left;
     padding-bottom: 0.5rem;
-    margin: 0 5px;
+    margin: 0 2px;
+    width: 100%;
 }
 
 .navigation {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .navigation a {
     text-decoration: none;
     color: red;
-    margin: 0 0 0 1rem;
     font-size: 13px;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.navigation li {
+    text-decoration: none;
+    display: inline-block;
 }
 
 a:hover {
@@ -52,13 +68,15 @@ a:hover {
 }
 
 /* Main styles */
-main {
-    display: flex;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: auto;
+main { 
+    flex: 1 0 auto;
     /* Push body down from header section */
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #landing-image {
@@ -126,10 +144,6 @@ main {
 /* Classes page styles */
 #background-classes {
     background-color: lightblue;
-    height: 1000px;
-    width: 100%;
-    position: relative;
-    padding: 10px;
 }
 
 #background-classes li {
@@ -137,35 +151,84 @@ main {
 }
 
 .class-head {
-    height: 100vh;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .days {
-    position: absolute;
-    text-align: right;
-    top: 40vh;
-    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.days li {
+    padding: 1em;
+    background-color: cadetblue;
+}
+
+.class-blocks {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
 }
 
 #monday {
-    position: absolute;
-    top: 100vh;
     background-color: lightgreen;
-    width: 60%;
+    width: 90%;
+    max-width: 500px;
     display: flex;
-    flex-wrap: wrap;
-    margin: 5px;
+    /* margin: 5px; */
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
 #tuesday {
-    position: absolute;
-    top: 130vh;
     background-color: lightgreen;
     width: 60%;
     display: flex;
     flex-wrap: wrap;
-    margin: 5px;
+    /* margin: 5px; */
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#wednesday {
+    background-color: lightgreen;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    /* margin: 5px; */
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#thursday {
+    background-color: lightgreen;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    /* margin: 5px; */
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+#friday {
+    background-color: lightgreen;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    /* margin: 5px; */
+    padding: 1em;
+    margin-bottom: 1em;
 }
 
 /* Sign-up page styles */
@@ -177,9 +240,12 @@ main {
 /* Footer styles */
 footer {
     background-color: lightpink;
-    display: flex;
     height: 30px;
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .social {
@@ -188,6 +254,7 @@ footer {
     width: 100%;
     padding-bottom: 10px;
     padding-top: 10px;
+    list-style-type: none;
 }
 
 .social a {
