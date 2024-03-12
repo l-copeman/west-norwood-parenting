@@ -169,7 +169,7 @@ main {
 
 .days li {
     padding: 1em;
-    background-color: cadetblue;
+    background-color: rgba(200, 100, 100, .5);
 }
 
 .class-blocks {
@@ -182,53 +182,55 @@ main {
 }
 
 #monday {
-    background-color: lightgreen;
-    width: 90%;
-    max-width: 500px;
+    /*background-color: lightgreen;*/
+    background: url("../images/music-class.webp") no-repeat center center/cover;
+    width: 60%;
+    /*max-width: 500px;*/
     display: flex;
-    /* margin: 5px; */
-    padding: 1em;
-    margin-bottom: 1em;
+    margin-top: 5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 #tuesday {
-    background-color: lightgreen;
+    background: url("../images/dance-class.avif") no-repeat center center/cover;
     width: 60%;
     display: flex;
     flex-wrap: wrap;
     /* margin: 5px; */
-    padding: 1em;
-    margin-bottom: 1em;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 
 #wednesday {
-    background-color: lightgreen;
-    width: 90%;
-    max-width: 500px;
+    background: url("../images/wed-class.jpeg") no-repeat center center/cover;
+    width: 60%;
     display: flex;
     /* margin: 5px; */
-    padding: 1em;
-    margin-bottom: 1em;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 
 #thursday {
-    background-color: lightgreen;
-    width: 90%;
-    max-width: 500px;
+    background: url("../images/thurs-class.jpeg") no-repeat center center/cover;
+    width: 60%;
     display: flex;
     /* margin: 5px; */
-    padding: 1em;
-    margin-bottom: 1em;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 
 #friday {
     background-color: lightgreen;
-    width: 90%;
-    max-width: 500px;
+    width: 60%;
     display: flex;
     /* margin: 5px; */
-    padding: 1em;
-    margin-bottom: 1em;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 
 /* Sign-up page styles */
