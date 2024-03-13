@@ -39,9 +39,48 @@
     </header>
     <main>
         <!--Main Section-->
-        <nav id="sign-up-ex">
-            <h3>sign-up</h3>
-        </nav>
+        <section class="sign-up">
+            <h2>Sign up to receive information about upcoming classes and social events</h2>
+            <form id="sign-up-form" action="" method="post">
+                <h3>Stay connected!</h3>
+                <div>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" name="first-name" id="first-name" class="sign-up-input" required>
+                </div>
+                <div>
+                    <label for="second-name">Second Name:</label>
+                    <input type="text" name="second-name" id="second-name" class="sign-up-input" required>
+                </div>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" class="sign-up-input" required>
+                </div>
+                <p>What age are your children? (select all that apply)</p>
+                <div>
+                    <input type="checkbox" id="newborn-checkbox" name="newborn">
+                    <label for="newborn">Less than 12 months</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="1-2-checkbox" name="1-2">
+                    <label for="1-2">1-2</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="2-3-checkbox" name="2-3">
+                    <label for="2-3">2-3</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="3-4-checkbox" name="3-4">
+                    <label for="3-4">3-4</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="4+checkbox" name="4+">
+                    <label for="4+">4+</label>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form>
+        </section>
     </main>
     <!--Footer Section-->
     <footer>
