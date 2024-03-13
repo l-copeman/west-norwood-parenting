@@ -180,7 +180,17 @@ main {
 
 .days li {
     padding: 1em;
-    background-color: rgba(200, 100, 100, .7);
+    background-color: rgba(200, 100, 192, 0.7);
+}
+
+/* trying to make full size of container?! */
+.days ul {
+    width: 100%;
+    height: 100%;
+}
+
+.days h4 {
+    font-size: 120%;
 }
 
 .class-blocks {
@@ -194,6 +204,7 @@ main {
 
 .class-blocks h3 {
     margin-top: 4rem;
+    font-size: 150%;
 }   
 
 #monday {
@@ -205,6 +216,8 @@ main {
     margin-top: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
+    text-align: right;
+    font-weight: bold;
 }
 
 #tuesday {
