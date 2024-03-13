@@ -157,6 +157,7 @@ main {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: url("../images/classes-land.jpeg") no-repeat center center/cover;
 }
 
 .days {
@@ -178,8 +179,7 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: pink;
-}
+   }
 
 #monday {
     /*background-color: lightgreen;*/
