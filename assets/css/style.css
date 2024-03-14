@@ -159,14 +159,15 @@ main {
     min-height: 100vh;
     background: url("../images/class-landing.jpeg") no-repeat center center/cover;
     border-radius: 50%;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 8rem;
+    margin-top: 1rem;
 }
 
-.class-head h2 {
+#background-classes h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 3rem;
 }
 
 .days {
@@ -199,7 +200,7 @@ main {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: pink;
+    background-color: rgba(200, 100, 192, 0.7);
    }
 
 .class-blocks h3 {
@@ -214,9 +215,9 @@ main {
     /*max-width: 500px;*/
     display: flex;
     margin-top: 1rem;
-    padding: 1rem;
+    /*padding: 1rem;*/
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -226,9 +227,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     /* margin: 5px; */
-    padding: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 #wednesday {
@@ -236,9 +238,10 @@ main {
     width: 60%;
     display: flex;
     /* margin: 5px; */
-    padding: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 #thursday {
@@ -246,9 +249,10 @@ main {
     width: 60%;
     display: flex;
     /* margin: 5px; */
-    padding: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 #friday {
@@ -256,9 +260,10 @@ main {
     width: 60%;
     display: flex;
     /* margin: 5px; */
-    padding: 1rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
 }
 
 /* Sign-up page styles */
