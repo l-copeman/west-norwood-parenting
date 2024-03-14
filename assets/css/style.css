@@ -153,10 +153,10 @@ main {
 .class-head {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 60%;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 80vh;
     background: url("../images/class-landing.jpeg") no-repeat center center/cover;
     border-radius: 50%;
     margin-bottom: 8rem;
@@ -168,6 +168,10 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 3rem;
+}
+
+.weekdays {
+
 }
 
 .days {
@@ -256,22 +260,41 @@ main {
 }
 
 #friday {
-    background-color: lightgreen;
+    background: url("../images/spanish-class.avif") no-repeat center center/cover;
     width: 60%;
     display: flex;
     /* margin: 5px; */
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     margin-top: 1rem;
     text-align: center;
     font-weight: bold;
 }
 
 /* Sign-up page styles */
-#sign-up-ex {
-    background-color: deepskyblue;
-    height: 600px;
-    width: 100%;
+#background-signup {
+background-color: lightblue;
 }
+
+#background-signup h2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.sign-up {
+    background: url("../images/signup-form.avif") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
 /* Footer styles */
 footer {
     background-color: lightpink;
