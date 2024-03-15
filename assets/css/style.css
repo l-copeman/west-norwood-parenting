@@ -20,6 +20,10 @@ body {
     font-family: Mulish, sans-serif;
 }
 
+a:hover {
+    color: green;
+}
+
 /* Header styles */
 header {
     background-color: #ffb6c1;
@@ -64,10 +68,6 @@ header h1 {
     display: inline-block;
 }
 
-a:hover {
-    color: green;
-}
-
 /* Main styles */
 main { 
     flex: 1 0 auto;
@@ -80,6 +80,7 @@ main {
     align-items: center;
 }
 
+/* Image for landing page */
 #landing-image {
     background: url("../images/landing-new2.jpeg") no-repeat top center/cover;
     height: 800px;
@@ -87,6 +88,7 @@ main {
     position: relative;
 }
 
+/* Text for landing page */
 #landing-text {
     background-color: rgba(255, 182, 193, 0.7);
     font-size: 110%;
@@ -101,6 +103,7 @@ main {
     border-radius: 5px;
 }
 
+/* About text */
 #about-1 {
     background-color: rgba(48, 64, 164, 0.7);
     font-size: 80%;
@@ -162,6 +165,7 @@ main {
     list-style-type: none;
 }
 
+/* Image for classes page */
 .class-head {
     display: flex;
     flex-direction: column;
@@ -186,6 +190,7 @@ main {
     text-align: center;
 }
 
+/* Links to days of the week */
 .weekdays {
     background-color: rgba(48, 64, 164, .8);
     margin-bottom: 8rem;
@@ -213,7 +218,6 @@ main {
     background-color: rgba(200, 100, 192, 0.7);
 }
 
-/* trying to make full size of container?! */
 .days ul {
     width: 100%;
     height: 100%;
@@ -238,6 +242,7 @@ main {
     color: #ffffff;
 }   
 
+/* Monday class */
 .monday {
     /*background-color: lightgreen;*/
     background: url("../images/music-class.webp") no-repeat center center/cover;
@@ -251,6 +256,7 @@ main {
     font-weight: bold;
 }
 
+/* Tuesday class */
 .tuesday {
     background: url("../images/dance-class.avif") no-repeat center center/cover;
     width: 60%;
@@ -263,6 +269,7 @@ main {
     font-weight: bold;
 }
 
+/* Wednesday class */
 .wednesday {
     background: url("../images/wed-class.jpeg") no-repeat center center/cover;
     width: 60%;
@@ -274,6 +281,7 @@ main {
     font-weight: bold;
 }
 
+/* Thursday class */
 .thursday {
     background: url("../images/thurs-class.jpeg") no-repeat center center/cover;
     width: 60%;
@@ -285,6 +293,7 @@ main {
     font-weight: bold;
 }
 
+/* Friday class */
 .friday {
     background: url("../images/spanish-class.avif") no-repeat center center/cover;
     width: 60%;
@@ -311,6 +320,7 @@ background-color: rgb(200, 100, 192);
     text-align: center;
 }
 
+/* Sign-up page image */
 .image {
     background: url("../images/signup-form.avif") no-repeat center center/cover;
     display: flex;
@@ -342,6 +352,7 @@ background-color: rgb(200, 100, 192);
     color: #ffb6c1;
 }
 
+/* Form styles */
 .sign-up {
     background-color: #ffb6c1;
     margin-bottom: 3rem;
@@ -358,6 +369,33 @@ background-color: rgb(200, 100, 192);
     color:#ffffff;
     padding: 3px;
     border-radius: 5px;
+}
+
+/* Responses page */
+.responses {
+    background-color: #3040a4;
+}
+
+.responses h2 {
+    text-align: center;
+    color:#ffffff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.home-page {
+    background-color: #ffb6c1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.home-page a {
+    text-decoration: none;
+}
+
+.home-page a:hover {
+    color:green;
 }
 
 /* Footer styles */
