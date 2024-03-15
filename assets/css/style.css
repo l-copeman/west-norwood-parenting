@@ -34,7 +34,7 @@ header {
 }
 
 header h1 {
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -52,10 +52,11 @@ header h1 {
 
 .navigation a {
     text-decoration: none;
-    color: red;
-    font-size: 13px;
+    color: #3040a4;
+    font-size: 11px;
     display: inline-block;
     margin-right: 1em;
+    text-transform: uppercase;
 }
 
 .navigation li {
@@ -71,7 +72,7 @@ a:hover {
 main { 
     flex: 1 0 auto;
     /* Push body down from header section */
-    margin-top: 70px;
+    margin-top: 64px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -80,15 +81,15 @@ main {
 }
 
 #landing-image {
-    background: url("../images/landing-image2.jpeg") no-repeat top center/cover;
+    background: url("../images/landing-new2.jpeg") no-repeat top center/cover;
     height: 800px;
     width: 100%;
     position: relative;
 }
 
 #landing-text {
-    background-color: rgba(200, 100, 100, .7);
-    font-size: 130%;
+    background-color: rgba(255, 182, 193, 0.7);
+    font-size: 110%;
     position: absolute;
     top: 50vh;
     right: 10vw;
@@ -96,50 +97,59 @@ main {
     min-height: 100px;
     max-width: 200px;
     font-weight: bold;
+    padding: 3px;
 }
 
 #about-1 {
-    background-color: rgba(200, 100, 100, .7);
+    background-color: rgba(48, 64, 164, 0.7);
     font-size: 80%;
+    color: #ffffff;
     position: absolute;
     bottom: 0vh;
     left: 0vw;
     width: 25%;
-    min-height: 140px;
+    min-height: 120px;
     text-align: center;
+    padding: 2px;
 }
 
 #about-2 {
-    background-color: rgba(54, 146, 106, 0.7);
+    background-color: rgba(200, 100, 192, 0.7);
     font-size: 80%;
+    color: #ffffff;
     position: absolute;
     bottom: 0vh;
     left: 25%;
     width: 25%;
-    min-height: 140px;
+    min-height: 120px;
     text-align: center;
+    padding: 2px;
 }
 
 #about-3 {
-    background-color: rgba(200, 100, 100, .7);
+    background-color: rgba(48, 64, 164, 0.7);
     font-size: 80%;
+    color: #ffffff;
     position: absolute;
     bottom: 0vh;
     left: 50%;
     width: 25%;
-    min-height: 140px;
+    min-height: 120px;
     text-align: center;
+    padding: 2px;
 }
 
 #about-4 {
-    background-color: rgba(54, 146, 106, 0.7);
+    background-color: rgba(200, 100, 192, 0.8);
     font-size: 80%;
+    color: #ffffff;
     position: absolute;
     bottom: 0vh;
     left: 75%;
     width: 25%;
-    min-height: 140px;
+    min-height: 120px;
     text-align: center;
+    padding: 2px;
 }
 
 /* Classes page styles */
@@ -307,7 +317,6 @@ background-color: lightblue;
 /* Footer styles */
 footer {
     background-color: #ffb6c1;
-    height: 30px;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -328,13 +337,21 @@ footer {
     display: flex;
     align-items: center;
     margin: 0 2rem;
+    color:#3040a4;
 }
 
-/* Media query: larger phones (425 and up) */
-@media screen and (min-width: 425px) {
+.social a:visited {
+    color: #3040a4;
+}
+
+
+
+/* Media query: larger phones (409 and up) */
+@media screen and (min-width: 409px) {
     #about-1, #about-2, #about-3, #about-4 {
         min-height: 100px;
     }
+    
 }
 
 
