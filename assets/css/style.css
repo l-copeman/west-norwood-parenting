@@ -196,6 +196,10 @@ main {
     margin-bottom: 8rem;
 }
 
+.weekdays li {
+    text-align: center;
+}
+
 .weekdays a {
     color:#ffffff;
 }

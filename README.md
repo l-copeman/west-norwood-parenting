@@ -110,7 +110,7 @@ The site can be accessed by this [link](https://l-copeman.github.io/west-norwood
     * Email Address
     * Age of their children. 
 * All fields are mandatory 
-* The Submit button can be clicked when all inbformation has been entered.
+* The Submit button can be clicked when all information has been entered.
 
 ![Form Screenshot](documentation/form-screenshot.jpeg)
 
@@ -129,9 +129,9 @@ The site can be accessed by this [link](https://l-copeman.github.io/west-norwood
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
-- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items on the pages.
 - [Balsamiq](https://balsamiq.com/) - was used to make wireframes for the website.
-- [Git](https://git-scm.com/) - was used as the main tool to write and edit code.
+- [Gitpod](https://www.gitpod.io/) - was used as the main tool to write and edit code.
 - [GitHub](https://github.com/) - was used to host the code of the website.
 
 ---
@@ -142,4 +142,62 @@ The site can be accessed by this [link](https://l-copeman.github.io/west-norwood
 
 ![Colours Screenshot](documentation/colours-screenshot.jpeg)
 
-* Light pink colour was used for header and footer sections, as well as form background. 
+* Light pink colour was used for header and footer sections, as well as form background. I chose it because it evokes memories of childhood, whilst also being a warm and comforting colour.
+* A dark blue colour was used for classes and responses pages background, as well as other details. I chose it because it contrasts well with the pink used and is associated with knowledge, authority, and reliability.
+* A darker shade of pink was used on the classes page and sign-up page. This darker shade is a calming colour associated with love and kindness.
+
+### Typography
+
+![Font Screenshot](documentation/font-screenshot.jpeg)
+
+* Mulish was used as the main font of the website in order to increase readability of the content on the pages.
+
+
+### Wireframe
+
+* I used Balsamiq to create wireframes of my ideas
+
+![Wireframe Mobile](documentation/wireframe.jpeg)
+
+![Wireframe Laptop](documentation/wireframe2.jpeg)
+
+---
+
+## Testing
+
+### Validator Testing
+
+- #### HTML
+
+##### Home Page
+
+No errors or warnings were found when passing through the official W3C validator.
+
+
+
+---
+
+## Deployment
+
+### Deployment to GitHub Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/l-copeman/west-norwood-parenting), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://l-copeman.github.io/west-norwood-parenting/)
+
+---
+
+## Future Improvements
+
+---
+
+## Credits
+
+---
+
+## Acknowledgements
+
+
