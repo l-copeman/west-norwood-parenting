@@ -169,13 +169,82 @@ The site can be accessed by this [link](https://l-copeman.github.io/west-norwood
 
 - #### HTML
 
-##### Home Page
+#### Home Page
 
 No errors or warnings were found when passing through the official W3C validator.
 
+![Home Validator](documentation/home-validator.jpeg)
 
+### Classes Page
+
+No errors or warnings were found when passing through the official W3C validator.
+
+![Classes Validator](documentation/classes-validator.jpeg)
+
+### Sign-up Page
+
+No errors or warnings were found when passing through the official W3C validator.
+
+![Sign-up Validator](documentation/classes-validator.jpeg)
+
+#### Responses Page
+
+No errors or warnings were found when passing through the official W3C validator.
+
+- #### CSS
+
+No errors or warnings were found when passing through the official W3C (Jigsaw) validator.
+
+![CSS Validator](documentation/css-validator.jpeg)
 
 ---
+
+### Lighthouse Report
+
+* #### Home Page
+
+![Home Lighthouse Report](documentation/home-light.jpeg)
+
+* #### Classes Page
+
+![Classes Lighthouse Report](documentation/class-light.jpeg)
+
+* #### Sign-up Page
+
+![Sign-up Lighthouse Report](documentation/signup-light.jpeg)
+
+* #### Responses Page
+
+![Responses Lighthouse Report](documentation/responses-light.jpeg)
+
+---
+
+### Manual Testing
+
+Maunal tests carried out by multiple users:
+
+* Home link
+* Classes link
+* Sign-up link
+* Facebook link
+* X link
+* Instagram link
+* Monday link
+* Tuesday link
+* Wednesday link
+* Thursday link
+* Friday link
+* Boppin' Tots webpage link
+* Tappy Toes Dance link
+* Wriggle and Rhyme link
+* Little Theatre on The Hill link
+* La Ola Spanish link
+* First name required
+* Second name required
+* Email required
+* Age of children required
+* Submit link 
+* Back to Home Page link   
 
 ## Deployment
 
@@ -195,6 +264,12 @@ The live link can be found [here](https://l-copeman.github.io/west-norwood-paren
 ---
 
 ## Credits
+
+#### Images
+
+All images were taken from:
+* [Pexels](https://www.pexels.com/)
+* [Unsplash](https://unsplash.com/)
 
 ---
 
