@@ -9,6 +9,8 @@
         content="Parenting group. Classes and groups for parents with young children, in West Norwood, South London.">
     <meta name="keywords" content="parents, babies, toddlers, parenting, playgroups, sensory, West Norwood, London">
     <meta name="author" content="Lee Copeman">
+    <!--Preconnect resourse hints-->
+    <link rel="preconnect">
     <!--Title-->
     <title>West Norwood Parenting</title>
     <!--Stylesheet-->
@@ -39,9 +41,14 @@
     </header>
     <main id="background-signup">
         <!--Main Section-->
-         <h2>Sign up to receive information about upcoming classes and social events</h2>
-         <div class="image"></div>
-         <section class="sign-up">  
+        <h2>Sign up to receive information about upcoming classes and social events</h2>
+        <div class="image"></div>
+        <button class="form-button">
+            <a href="#sign-up-form">
+                <h3><i class="fa-solid fa-arrow-down"></i> Sign-up Form <i class="fa-solid fa-arrow-down"></i></h3>
+            </a>
+        </button>
+        <section class="sign-up">
             <form id="sign-up-form" action="responses.html" method="GET">
                 <h3>Stay connected!</h3>
                 <br>
@@ -61,27 +68,27 @@
                 <p>What age are your children? (select all that apply)</p>
                 <div>
                     <input type="checkbox" id="newborn-checkbox" name="newborn">
-                    <label for="newborn">Less than 12 months</label>
+                    <label for="newborn-checkbox">Less than 12 months</label>
                 </div>
                 <div>
                     <input type="checkbox" id="1-2-checkbox" name="1-2">
-                    <label for="1-2">1-2</label>
+                    <label for="1-2-checkbox">1-2</label>
                 </div>
                 <div>
                     <input type="checkbox" id="2-3-checkbox" name="2-3">
-                    <label for="2-3">2-3</label>
+                    <label for="2-3-checkbox">2-3</label>
                 </div>
                 <div>
                     <input type="checkbox" id="3-4-checkbox" name="3-4">
-                    <label for="3-4">3-4</label>
+                    <label for="3-4-checkbox">3-4</label>
                 </div>
                 <div>
                     <input type="checkbox" id="4+checkbox" name="4+">
-                    <label for="4+">4+</label>
+                    <label for="4+checkbox">4+</label>
                 </div>
                 <br>
                 <div>
-                    <input type="submit">
+                    <input type="submit" class="submit">
                 </div>
             </form>
         </section>

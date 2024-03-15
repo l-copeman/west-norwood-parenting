@@ -97,7 +97,8 @@ main {
     min-height: 100px;
     max-width: 200px;
     font-weight: bold;
-    padding: 3px;
+    padding: 4px;
+    border-radius: 5px;
 }
 
 #about-1 {
@@ -167,11 +168,11 @@ main {
     width: 60%;
     justify-content: center;
     align-items: center;
-    min-height: 50vh;
+    min-height: 240px;
     background: url("../images/class-landing.jpeg") no-repeat center center/cover;
     border-radius: 50%;
-    margin-bottom: 16rem;
-    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 #background-classes h2 {
@@ -179,12 +180,23 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     color: #ffffff;
     text-align: center;
 }
 
 .weekdays {
+    background-color: rgba(48, 64, 164, .8);
+    margin-bottom: 8rem;
+}
 
+.weekdays a {
+    color:#ffffff;
+}
+
+.weekdays a:hover {
+    color: #ffb6c1;
 }
 
 .days {
@@ -226,7 +238,7 @@ main {
     color: #ffffff;
 }   
 
-#monday {
+.monday {
     /*background-color: lightgreen;*/
     background: url("../images/music-class.webp") no-repeat center center/cover;
     width: 60%;
@@ -239,7 +251,7 @@ main {
     font-weight: bold;
 }
 
-#tuesday {
+.tuesday {
     background: url("../images/dance-class.avif") no-repeat center center/cover;
     width: 60%;
     display: flex;
@@ -251,7 +263,7 @@ main {
     font-weight: bold;
 }
 
-#wednesday {
+.wednesday {
     background: url("../images/wed-class.jpeg") no-repeat center center/cover;
     width: 60%;
     display: flex;
@@ -262,7 +274,7 @@ main {
     font-weight: bold;
 }
 
-#thursday {
+.thursday {
     background: url("../images/thurs-class.jpeg") no-repeat center center/cover;
     width: 60%;
     display: flex;
@@ -273,7 +285,7 @@ main {
     font-weight: bold;
 }
 
-#friday {
+.friday {
     background: url("../images/spanish-class.avif") no-repeat center center/cover;
     width: 60%;
     display: flex;
@@ -286,7 +298,7 @@ main {
 
 /* Sign-up page styles */
 #background-signup {
-background-color: lightblue;
+background-color: rgb(200, 100, 192);
 }
 
 #background-signup h2 {
@@ -294,6 +306,8 @@ background-color: lightblue;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     text-align: center;
 }
 
@@ -302,16 +316,48 @@ background-color: lightblue;
     display: flex;
     flex-direction: column;
     width: 60%;
-    min-height: 50vh;
+    min-height: 240px;
     border-radius: 50%;
-    margin-bottom: 16rem;
-    margin-top: 5rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.form-button {
+    margin-bottom: 13rem;
+    background-color: #ffb6c1;
+    color: #000000;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form-button a {
+    text-decoration: none;
+}
+
+.form-button a:visited {
+    color:#000000;
+}
+
+.form-button a:hover {
+    color: #ffb6c1;
 }
 
 .sign-up {
-    background-color: lightgreen;
+    background-color: #ffb6c1;
     margin-bottom: 3rem;
     padding: 1rem;
+    border-radius: 5px;
+}
+
+.sign-up h3 {
+    text-align: center;
+}
+
+.submit {
+    background-color: #3040a4;
+    color:#ffffff;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 /* Footer styles */
@@ -351,18 +397,39 @@ footer {
     #about-1, #about-2, #about-3, #about-4 {
         min-height: 100px;
     }
-    
+    main {
+        margin-top: 44px;
+    }
 }
 
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     header h1 {
-        font-size: 32px;
+        font-size: 25px;
     }
 
     #about-1, #about-2, #about-3, #about-4 {
         font-size: 120%;
         min-height: 100px;
+    }
+
+    .class-head {
+        min-height: 350px;
+    }
+
+    .image {
+        min-height: 350px;
+    }
+}
+
+/* Media query: laptops and larger (1024 and up) */
+@media screen and (min-width: 1024px) {
+    .class-head {
+        min-height: 400px;
+    }
+
+    .image {
+        min-height: 400px;
     }
 }
