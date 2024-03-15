@@ -1,110 +1,145 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# West Norwood Parenting
 
-Welcome Lee Copeman,
+Welcome user,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+West Norwood Parenting has been designed to bring parents together from the West Norwood area. With the demands of parenting, it can often be lonely and difficult to meet other parents, especislly for first-time parents. This site offers a range of classes, where you can take your children whilst meeting other parents at the same time. There is also a form where you can sign up to hear about social events for parents and upcoming classes.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The site can be accessed by this [link](https://l-copeman.github.io/west-norwood-parenting/)
 
 ---
 
-Happy coding!
+## User stories
+
+### First Time Visitor Goals
+
+* As a first time visitor, I want to easily understand the main purpose of the site. 
+* As a first time visitor, I want to be able to easily navigate through the website, so I can find the content.
+
+### Returning Visitor Goals
+
+* As a returning visitor, I want to see the various classes that are shown.
+* As a returning visitor, I want to see all the relevant information for the class and follow the link to book a class.
+* As a returning visitor, I want to stay connected using the social media pages.
+* As a returning visitor, I want to be able to sign-up to keep updated for social events and new classes.
+
+### Frequent Visitor Goals
+
+* As a frequent visitor, I want to view new classes that have been added.
+
+---
+
+## Features
+
+- ### Nav bar
+
+![NavBar](documentation/navbar-screenshot.jpeg)
+
+* Positioned at the top of the page.
+* The position is fixed, so the nav bar is always visible allowing for easier navigation through the site.
+* The name for the group is on the left-hand side of the nav bar.
+    * The name is responsive, enlarging for bigger screen sizes.
+* Navigation links are positioned on the right of the nav bar:
+    * HOME - takes the user to the home page.
+    * CLASSES - takes the user to the classes page, where different classes can be viewed.
+    * SIGN-UP - takes the user to the sign-up page, where they can fill a form to receive information about social events. and upcoming classes.
+* The links are animated with hover effect.    
+
+---
+
+- ### Footer
+
+![Footer](documentation/footer-screenshot.jpeg)
+
+* The footer is positioned at the bottom of the page.
+* It contains links for each of our social media pages
+    * Facebook
+    * X
+    * Instagram
+* Each link is represented by an icon for the relevant social media page.
+* They are all positioned in the center of the footer.
+* Each link will open in a new page    
+
+- ### Main Page
+
+* The page is dominated by an image of a young family, in a relaxed happy environment.
+* The groups tagline is displayed which serves to clarify the thought of the page.
+
+![Landing Image](documentation/landing-image.jpeg)
+
+* Towards the bottom of the page are four areas of text. These give the user key information of the groups goals.
+    * This text is repsonsive. The text-size increases for larger screens and their containers change size accordingly.
+
+![About Text](documentation/about-text.jpeg)
+
+---
+
+- ### Classes Page
+
+* At the top of the page is a heading, informing the user that a selection of classes can be viewed.
+* There is a circular image, showing children playing in a friendly environemnt.
+    * This image is responsive. The height increases for larger screens.
+
+![Classes Screenshot](documentation/classes-image.jpeg)
+
+* There are links to each specific day of the week, for the relevant classes. The links are animated with hover effect.
+* Each day of the week has its own heading.
+* Each class contains:
+    * The name of the class.
+    * The age group for the class.
+    * A short description of the class.
+    * The venue for the class.
+    * A link to the class website, where you can book. (link opens in new tab)
+
+![Monday Screenshot](documentation/monday-class.jpeg)    
+
+--- 
+
+- ### Sign-up Page
+
+* At the top of the page is a heading, informing the user that they can sign-up to hear about social events and upcoming classes.
+* There is a circular image, showing hands in a group, representing togetherness.
+    * This image is responsive. The height increases for larger screens.
+* There is a button with a link to the form below, ensuring users are aware of the form and where to find it.
+
+![Signup screenshot](documentation/signup-image.jpeg)
+
+* Users can fill in the form to keep updated of social events and classes.
+* The form ask users for:
+    * First Name
+    * Second Name
+    * Email Address
+    * Age of their children. 
+* All fields are mandatory 
+* The Submit button can be clicked when all inbformation has been entered.
+
+![Form Screenshot](documentation/form-screenshot.jpeg)
+
+---
+
+- ### Responses Page
+
+* In the center of the page is a thank you message, for signing up to our community.
+* A 'Back to Home Page' button has been added to easily direct users back to the home page.
+
+![Responses Screenshot](documentation/responses-screenshot.jpeg)
+
+---
+
+### Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+- [Balsamiq](https://balsamiq.com/) - was used to make wireframes for the website.
+- [Git](https://git-scm.com/) - was used as the main tool to write and edit code.
+- [GitHub](https://github.com/) - was used to host the code of the website.
+
+---
+
+## Design
+
+### Colour
+
+![Colours Screenshot](documentation/colours-screenshot.jpeg)
+
+* Light pink colour was used for header and footer sections, as well as form background. 
