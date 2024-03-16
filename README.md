@@ -165,6 +165,40 @@ The site can be accessed by this [link](https://l-copeman.github.io/west-norwood
 
 ## Testing
 
+### Compatibility
+
+In order to confirm the correct functionality, responsiveness and appearance the website wastested on: 
+
+* Chrome
+
+![Chrome Test](documentation/chrome-test.jpeg)
+
+* Safari
+
+![Safari Test](documentation/safari-test.jpeg)
+
+* Firefox
+
+![Firefox](documentation/firefox-test.jpeg)
+
+### Responsiveness
+
+In orfer to cofirm the responsiveness of the site, devtools was used to check the website on different screen sizes:
+
+* Phone
+
+![Phone Test](documentation/phone-test.jpeg) 
+
+* Tablet
+
+![Tablet Test](documentation/tablet-test.jpeg)
+
+* Laptop
+
+![Laptop Test](documentation/laptop-test.jpeg)
+
+
+
 ### Validator Testing
 
 - #### HTML
@@ -185,11 +219,13 @@ No errors or warnings were found when passing through the official W3C validator
 
 No errors or warnings were found when passing through the official W3C validator.
 
-![Sign-up Validator](documentation/classes-validator.jpeg)
+![Sign-up Validator](documentation/signup-validator.jpeg)
 
 #### Responses Page
 
 No errors or warnings were found when passing through the official W3C validator.
+
+![Responses Validator](documentation/responses-validator.jpeg)
 
 - #### CSS
 
@@ -246,6 +282,20 @@ Maunal tests carried out by multiple users:
 * Submit link 
 * Back to Home Page link   
 
+### Bugs
+
+#### Solved bugs
+
+* As I was testing the responsiveness for larger phones and above, I noticed the title in the header wrapped onto one line, hence revealing white space between the header and main section. To resolve this I had to change the marin-top of the main section to reduce this space.
+
+* The landing image on the main page was pixelated on larger screen sizes. I had to replace this image with a higher resolutiuon image to solve the issue.
+
+* When checking the html code through the validator, I had an error where there was an `<a>` element within a `<button>` element. This is not good for user accessibility. To resolve this I removed the button element, and just used an `<a>` tag and used CSS styling to get the desired effect.
+
+#### Unresolved bugs
+
+* On the classes page I have the days of the week listed as links to the relevant classes for that day. When clicking on a certain day, it takes you to the section but the title for that day is hidden beneath the header. I would have liked this to be visible. To resolve this I would look at repositioning the target id, so the day of the week heading is visible.
+
 ## Deployment
 
 ### Deployment to GitHub Pages
@@ -261,6 +311,9 @@ The live link can be found [here](https://l-copeman.github.io/west-norwood-paren
 
 ## Future Improvements
 
+* I would like to add more classes for each specific day of the week
+* I would like to gain feedback from users experience of the site, and after joining the community. I would look at incorporating this information into the site to show past user experience for new users. 
+
 ---
 
 ## Credits
@@ -274,5 +327,8 @@ All images were taken from:
 ---
 
 ## Acknowledgements
+
+* [Code Institute](https://codeinstitute.net/) tutors, mentor and Slack community members for their support and help.
+* Cristina Bonilla, my partner, for her support, design guidance and help with testing.
 
 
